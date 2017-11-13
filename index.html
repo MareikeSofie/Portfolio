@@ -1,1 +1,88 @@
-body
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,700,700i" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Mareike Dinger Portfolio</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Startseite, Projekt1 -->
+				<section>
+					Projekt 1
+				</section>
+
+				<!-- Projekt2: Illustration: Bild1 Ausschnitt -->
+				<section>
+					<section data-background="images/illustration1detail.jpg" alt="Zeichnung eines Telefonhörers">
+            Illustration
+        	</section>
+        	<section data-background="#dddddd">
+						<h4>»Aus dem Leben eines Taugenichts« • 148 mm x 210 mm • pencil  &amp; paper • illustrated diary •</h4>
+        		<p>»[...] ich saß auf der Thürschwelle und wischte mir den Schlaf aus den Augen, mir war so recht wohl in
+          	dem warmen Sonnenscheine. Da trat der Vater aus dem Hause; [...], der sagte zu mir: »Du Taugenichts!
+          	da sonnst Du Dich schon wieder und  dehnst  und  reckst  Dir  die  Knochen  müde [...]« <br>
+          	– »Nun,« sagte ich, »wenn ich  ein  Taugenichts  bin,  so  ist's  gut,  so will  ich  in  die  Welt
+          	gehen  und  mein  Glück machen.« [...]«
+        		</p>
+        	</section>
+
+						<!-- Illustration Bild1 -->
+						<section data-background="images/illustration1.jpg">
+	        	</section>
+
+						<!-- Illustration Bild 2 -->
+						<section data-background="images/illustration2.jpg">
+	        	</section>
+
+						<!-- Illustration Bild 3 -->
+						<section data-background="images/illustration3.jpg">
+	          </section>
+
+						<!-- Illustration Bild 4 -->
+						<section data-background="images/illustration4.jpg">
+	          </section>
+					</section>
+
+				<!-- Projekt3: Fotografie -->
+				<section>
+					<!-- Fotografie Bild 2 -->
+					<section data-background="images/Dinger-Mareike-Portrait-09.jpg">
+            Fotografie
+        	</section>
+
+					<!-- Fotografie Bild2 -->
+					<section data-background="images/Dinger-Mareike-Portrait-06.jpg">
+					</section>
+
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
