@@ -1,0 +1,44 @@
+/*Schrift, überschrieben*/
+
+.reveal div {
+  font-family: 'Zilla Slab', serif;
+  }
+
+/*Navigation rechts, Farbe überschrieben*/
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+    border-left-color: #ffd700;
+}
+
+/*Navigation rechts hover, Farbe überschrieben*/
+.reveal .controls .navigate-right.enabled:hover {
+    border-left-color: #d6b400;
+}
+
+/*Navigation runter, Farbe überschrieben*/
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+    border-top-color: #ffd700;
+}
+
+/*Navigation runter hover, Farbe überschrieben*/
+.reveal .controls .navigate-down.enabled:hover {
+    border-top-color: #d6b400;
+}
+
+/*Navigation links, Farbe überschrieben*/
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+    border-right-color: #ffd700;
+}
+
+/*Navigation links hover, Farbe überschrieben*/
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #d6b400;
+}
+
+/*Status Bar, Farbe überschrieben*/
+.reveal .progress span {
+    background: #ffd700;
+}
+
+
+
+background-color: #f40041
