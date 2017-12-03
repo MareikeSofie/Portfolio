@@ -1,7 +1,8 @@
 /*Schrift, überschrieben*/
 
 .reveal div {
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Zilla Slab', 'Courier New', serif;
+  font-weight: 400;
   }
 
 /*Navigation rechts, Farbe überschrieben*/
@@ -34,9 +35,25 @@
     border-right-color: #d6b400;
 }
 
+/*Navigation hoch, Farbe überschrieben*/
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+    border-bottom-color: #ffd700;
+}
+
+/*Navigation hoch hover, Farbe überschrieben*/
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #d6b400;
+}
+
 /*Status Bar, Farbe überschrieben*/
 .reveal .progress span {
     background: #ffd700;
+}
+
+/*Schrift Überschriften überschrieben*/
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: 'Zilla Slab', 'Courier New', serif;
+  font-weight: 700;
 }
 
 
