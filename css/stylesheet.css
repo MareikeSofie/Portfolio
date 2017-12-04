@@ -54,6 +54,14 @@
 .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
   font-family: 'Zilla Slab', 'Courier New', serif;
   font-weight: 700;
+  font-style: italic;
+  text-transform: none;
+}
+
+/*Fotos nebneinander Schöneweide*/
+.img{
+  min-width: 50%;
+
 }
 
 
