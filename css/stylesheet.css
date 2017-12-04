@@ -57,3 +57,49 @@
   font-style: italic;
   text-transform: none;
 }
+
+
+.gallery {
+  position: relative;
+}
+
+.gallery figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.gallery figcaption {
+  position: absolute;
+  left: 1em;
+  bottom: 0.5em;
+  z-index: 2;
+}
+
+.gallery figure {
+  animation-name: wechseln;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.gallery figure.animation_2 {
+  animation-name: wechseln;
+  animation-duration: 3s;
+  animation-delay: 3s;
+
+}
+
+.gallery figure.animation_3 {
+  animation-name: wechseln;
+  animation-duration: 3s;
+  animation-delay: 6s:
+  animation-iteration-count: infinite;
+}
+
+@keyframes wechseln {
+    0% {opacity: 1;}
+   25% {opacity: 1;}
+   40% {opacity: 1;}
+   92% {opacity: 0;}
+  100% {opacity: 0;}
+}
