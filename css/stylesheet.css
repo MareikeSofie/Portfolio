@@ -67,3 +67,32 @@
   font-size: 27px;
   margin-top: 60px;
 }
+
+/*Schriftgröße About überschrieben*/
+.reveal .slides section .fragment.fade-out {
+  font-size: 27px;
+
+}
+
+
+
+
+.about {
+  width: 20%;
+  float: left;
+
+
+}
+
+.about p {
+font-weight: 700;
+  font-size: 27px;
+}
+
+.about-content {
+  width: 50%;
+  float: left;
+  padding: 20px 0px;
+  text-align: left;
+  font-size: 27px;
+}
